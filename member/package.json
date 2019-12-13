@@ -1,0 +1,53 @@
+{
+  "name": "bioyouxi-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.18.1",
+    "base64-img": "^1.0.4",
+    "dayjs": "^1.7.7",
+    "fastclick": "^1.0.6",
+    "js-base64": "^2.4.9",
+    "jsbarcode": "^3.11.0",
+    "lib-flexible": "^0.3.2",
+    "lodash": "^4.17.15",
+    "material-icons": "^0.2.3",
+    "qrcodejs2": "0.0.2",
+    "qs": "^6.5.2",
+    "vant": "^2.1.2",
+    "vue": "^2.5.17",
+    "vue-awesome-swiper": "^2.6.7",
+    "vue-pull-to": "^0.1.6",
+    "vue-router": "^3.0.1",
+    "vue-toasted": "^1.1.25",
+    "vuex": "^3.0.1",
+    "vuex-persist": "^2.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass-loader": "^7.2.0",
+    "sass-resources-loader": "^1.3.4",
+    "style-loader": "^0.23.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.39.2"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
